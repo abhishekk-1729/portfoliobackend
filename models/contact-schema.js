@@ -8,5 +8,5 @@ const contactSchema = new mongoose.Schema({
 
 
 const UserContact = new mongoose.model("UserContact", contactSchema);
-module.exports = UserContact;
+module.exports = UserContact; 
 
